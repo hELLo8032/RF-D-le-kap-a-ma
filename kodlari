@@ -32,9 +32,9 @@ void loop() {
         Serial.println("Kapi acildi");
         ekranaYazdir();
         motor.write(180);                 //Servo motoru 180 dereceye getiriyoruz.
-        delay(3000);
+        delay(5000);
         motor.write(0);                   //Servo motoru 0 dereceye getiriyoruz.
-        delay(1000);
+        delay(5000);
     }
     else{                                 //Yetkisiz girişte içerideki komutlar çalıştırılır.
       Serial.println("Yetkisiz Kart");
